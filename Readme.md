@@ -20,7 +20,7 @@
 - 默认8080端口
 - IDEA+Maven+JDK11
 - 数据库MySQL 建数据库 库名tlias 数据表在SQL文件中
-- 阿里云密钥 
+- 阿里云密钥. 
 
 # 项目部分页面展示
  <img src="assets/img_4.png" alt="img_4.png" style="zoom:80%;" />
