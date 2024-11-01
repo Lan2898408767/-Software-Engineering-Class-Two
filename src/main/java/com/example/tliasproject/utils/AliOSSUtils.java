@@ -37,10 +37,10 @@ public class AliOSSUtils {
         String endpoint = aliOSSproperties.getEndpoint();
 
         //测试输出Key信息
-        System.out.println("accessKeyId = "+ accessKeyId );
-        System.out.println("bucketName = "+ bucketName );
-        System.out.println("accessKeySecret = "+ accessKeySecret );
-        System.out.println("endpoint = "+ endpoint );
+//        System.out.println("accessKeyId = "+ accessKeyId );
+//        System.out.println("bucketName = "+ bucketName );
+//        System.out.println("accessKeySecret = "+ accessKeySecret );
+//        System.out.println("endpoint = "+ endpoint );
 
         // 获取上传的文件的输入流
         InputStream inputStream = file.getInputStream();
