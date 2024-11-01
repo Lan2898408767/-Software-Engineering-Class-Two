@@ -35,6 +35,13 @@ public class AliOSSUtils {
         String bucketName = aliOSSproperties.getBucketName();
         String accessKeySecret = aliOSSproperties.getAccessKeySecret();
         String endpoint = aliOSSproperties.getEndpoint();
+
+        //输出Key信息
+        System.out.println("accessKeyId = "+ accessKeyId );
+        System.out.println("bucketName = "+ bucketName );
+        System.out.println("accessKeySecret = "+ accessKeySecret );
+        System.out.println("endpoint = "+ endpoint );
+
         // 获取上传的文件的输入流
         InputStream inputStream = file.getInputStream();
 
